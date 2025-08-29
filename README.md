@@ -60,9 +60,9 @@ To install and run the project, follow this steps:
 - Recall: 96.7%
 - F1-score: 94.9
 
-## Screenshots
+## Project Screenshots
 
-![Login page](/images/login_page.png)
+![Login page](/images/login_page.png)<br>
 
 ![Overview](/images/Overview.png)<br>
 
@@ -70,4 +70,5 @@ To install and run the project, follow this steps:
 
 
 ## Credits:
+
 **Huge thanks to [ns7523](https://github.com/ns7523) 🙌 His repo saved me when I was stuck!**
