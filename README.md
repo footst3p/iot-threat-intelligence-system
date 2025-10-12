@@ -2,8 +2,7 @@
 ## A threat intelligence system for monitoring and detecting cybersecurity threats in IoT
 
 ## Introduction
-This project is about building a system that monitors IoT devices for cybersecurity threats. 
-It collects data, analyzes it using machine learning, and then detects attacks like Unauthorized Access, DoS, and DDoS. The results are displayed on a real-time dashboard.
+The IoT Threat Intelligence System is a real-time cybersecurity platform designed to monitor, detect, and classify cyber threats targeting Internet of Things (IoT) environments. The system leverages machine learning and lightweight communication protocols to provide accurate, efficient, and scalable protection for resource-constrained IoT devices.
 
 ## Features
 - Data Collection – IoT data is collected through MQTT.
@@ -19,12 +18,23 @@ It collects data, analyzes it using machine learning, and then detects attacks l
 - Programming Languages: Python
 - Machine Learning Frameworks: Scikit-learn
 - Data Analysis: Pandas, NumPy
-- Visualization: React
+- Visualisation: React
 - Networking: MQTT
 - Database: SQLite
 
-## Installation
-To install and run the project, follow this steps:
+## System Implementation
+
+  1. Data Collection:
+      - Predetermined and Trained Datasets.
+  2. Data Preprocessing
+     - Refined data to ensure effective ML algorithm usage
+  3. Feature Selection
+     - Selected needed features from the data
+  4. Train Model
+     - Trained model using Random Forest 
+
+## Installation and Usage
+To install and run the project, follow these steps:
 
 1. Clone the repository:
    ```
@@ -43,24 +53,16 @@ To install and run the project, follow this steps:
    npm start
    ```
 
-## Usage
+4. run data ingestor
+   ```
+   python3 mqtt_ingestor.py
 
-  1. Data Collection:
-
-      - Predetermined and Trained Datasets.
-      - Tested and trained on 4-8 Lakhs of possibilites/datasets.
-      - The application will analyze the data and predict the attack possibilites.
-
-  2. Homepage:
-     Access at LocalHost to predict threat detection and attack status.
-
-## Results
-- Accuracy: 95.3%
-- Precision: 93.2%
-- Recall: 96.7%
-- F1-score: 94.9
+   ```
+5. Homepage:
+     Access to LocalHost to predict threat detection and attack status.
 
 ## Project Screenshots
+![Programs launch](/images/programmes_launch.png)<br>
 
 ![Login page](/images/login_page.png)<br>
 
@@ -71,4 +73,4 @@ To install and run the project, follow this steps:
 
 ## Credits:
 
-**Huge thanks to [ns7523](https://github.com/ns7523) 🙌 His repo saved me when I was stuck!**
+**Many thanks to ns7523 🙌! His repo saved me when I got stuck.**
