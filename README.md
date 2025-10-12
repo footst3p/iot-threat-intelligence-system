@@ -1,4 +1,4 @@
-# IoT Threat Intelligence System
+# Development of IoT Threat Intelligence System
 ## A threat intelligence system for monitoring and detecting cybersecurity threats in IoT
 
 ## Introduction
@@ -62,7 +62,8 @@ To install and run the project, follow these steps:
      Access to LocalHost to predict threat detection and attack status.
 
 ## Project Screenshots
-![Programs launch](/images/programmes_launch.png)<br>
+(/images/programmes_launch.png)<br>
+## Programs launch
 
 ![Login page](/images/login_page.png)<br>
 
