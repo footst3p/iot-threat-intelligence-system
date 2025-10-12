@@ -62,14 +62,17 @@ To install and run the project, follow these steps:
      Access to LocalHost to predict threat detection and attack status.
 
 ## Project Screenshots
-(/images/programmes_launch.png)<br>
-## Programs launch
+![Programs launch](/images/programmes_launch.png)<br>
+Programs Launch
 
 ![Login page](/images/login_page.png)<br>
+Login Page
 
 ![Overview](/images/Overview.png)<br>
+Dashboard
 
 ![Logs](/images/Logs.png)
+Threats Detected
 
 
 ## Credits:
